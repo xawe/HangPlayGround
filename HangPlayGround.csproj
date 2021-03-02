@@ -5,6 +5,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="gitignore" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="gitignore" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Hangfire.AspNetCore" Version="1.7.19" />
     <PackageReference Include="Hangfire.PostgreSql" Version="1.8.2" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.3" />
