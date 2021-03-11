@@ -351,6 +351,29 @@
         "runtime": {
           "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
         }
+      },
+      "HangPlayGround.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/HangPlayGround.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HangPlayGround.Model.dll": {}
+        }
+      },
+      "HangPlayGround.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "HangPlayGround.Model": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/HangPlayGround.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HangPlayGround.Services.dll": {}
+        }
       }
     }
   },
@@ -1058,10 +1081,22 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "HangPlayGround.Model/1.0.0": {
+      "type": "project",
+      "path": "../HangPlayGround.Model/HangPlayGround.Model.csproj",
+      "msbuildProject": "../HangPlayGround.Model/HangPlayGround.Model.csproj"
+    },
+    "HangPlayGround.Services/1.0.0": {
+      "type": "project",
+      "path": "../HangPlayGround.Services/HangPlayGround.Services.csproj",
+      "msbuildProject": "../HangPlayGround.Services/HangPlayGround.Services.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "HangPlayGround.Model >= 1.0.0",
+      "HangPlayGround.Services >= 1.0.0",
       "Hangfire.AspNetCore >= 1.7.19",
       "Hangfire.PostgreSql >= 1.8.2",
       "Microsoft.EntityFrameworkCore >= 5.0.3",
@@ -1102,7 +1137,14 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "I:\\Projetos\\NetCore\\HangPlayGround.Model\\HangPlayGround.Model.csproj": {
+              "projectPath": "I:\\Projetos\\NetCore\\HangPlayGround.Model\\HangPlayGround.Model.csproj"
+            },
+            "I:\\Projetos\\NetCore\\HangPlayGround.Services\\HangPlayGround.Services.csproj": {
+              "projectPath": "I:\\Projetos\\NetCore\\HangPlayGround.Services\\HangPlayGround.Services.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -12,6 +12,9 @@ namespace HangPlayGround.Controllers
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
     {
+        private readonly Services.IUserService _userService;
+
+
         private static readonly string[] Summaries = new[]
         {
             "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
@@ -19,9 +22,10 @@ namespace HangPlayGround.Controllers
 
         private readonly ILogger<WeatherForecastController> _logger;
 
-        public WeatherForecastController(ILogger<WeatherForecastController> logger)
+        public WeatherForecastController(ILogger<WeatherForecastController> logger, Services.IUserService userService)
         {
             _logger = logger;
+            _userService = userService;
         }
 
 
@@ -37,7 +41,9 @@ namespace HangPlayGround.Controllers
         public IEnumerable<WeatherForecast> Get()
         {
             //executa chamada em backgroud
-            BackgroundJob.Enqueue(()=> Loop());            
+            BackgroundJob.Enqueue(()=> Loop());
+
+            var x = _userService.GetUserList();
             
             var rng = new Random();
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast

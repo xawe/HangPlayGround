@@ -35,6 +35,10 @@ namespace HangPlayGround
             // Configuração do HangFire
             services.AddHangfire(x =>
                 x.UsePostgreSqlStorage(Configuration.GetConnectionString("DefaultConnection")));
+
+
+            services.AddSingleton<HangPlayGround.Services.IUserService, HangPlayGround.Services.UserService>();
+
             services.AddControllers();
         }
 
