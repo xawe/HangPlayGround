@@ -17,7 +17,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\HangPlayGround.Model\HangPlayGround.Model.csproj" />
-    <ProjectReference Include="..\HangPlayGround.Services\HangPlayGround.Services.csproj" />
   </ItemGroup>
 
 </Project>

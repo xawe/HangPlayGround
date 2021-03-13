@@ -37,7 +37,7 @@ namespace HangPlayGround
                 x.UsePostgreSqlStorage(Configuration.GetConnectionString("DefaultConnection")));
 
 
-            services.AddSingleton<HangPlayGround.Services.IUserService, HangPlayGround.Services.UserService>();
+            services.AddSingleton < HangPlayGround.Service.IUserServices, Service.UserService>();
 
             services.AddControllers();
         }

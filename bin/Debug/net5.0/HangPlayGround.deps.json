@@ -26,7 +26,6 @@
       "HangPlayGround/1.0.0": {
         "dependencies": {
           "HangPlayGround.Model": "1.0.0",
-          "HangPlayGround.Services": "1.0.0",
           "Hangfire.AspNetCore": "1.7.19",
           "Hangfire.PostgreSql": "1.8.2",
           "Microsoft.EntityFrameworkCore": "5.0.3",
@@ -594,17 +593,6 @@
         },
         "compile": {
           "HangPlayGround.Model.dll": {}
-        }
-      },
-      "HangPlayGround.Services/1.0.0": {
-        "dependencies": {
-          "HangPlayGround.Model": "1.0.0"
-        },
-        "runtime": {
-          "HangPlayGround.Services.dll": {}
-        },
-        "compile": {
-          "HangPlayGround.Services.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/5.0.0.0": {
@@ -2491,11 +2479,6 @@
       "hashPath": "system.runtime.compilerservices.unsafe.4.6.0.nupkg.sha512"
     },
     "HangPlayGround.Model/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "HangPlayGround.Services/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

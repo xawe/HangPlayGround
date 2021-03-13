@@ -59,70 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "I:\\Projetos\\NetCore\\HangPlayGround.Services\\HangPlayGround.Services.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "I:\\Projetos\\NetCore\\HangPlayGround.Services\\HangPlayGround.Services.csproj",
-        "projectName": "HangPlayGround.Services",
-        "projectPath": "I:\\Projetos\\NetCore\\HangPlayGround.Services\\HangPlayGround.Services.csproj",
-        "packagesPath": "C:\\Users\\dream\\.nuget\\packages\\",
-        "outputPath": "I:\\Projetos\\NetCore\\HangPlayGround.Services\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "D:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\dream\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net5.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
-            "projectReferences": {
-              "I:\\Projetos\\NetCore\\HangPlayGround.Model\\HangPlayGround.Model.csproj": {
-                "projectPath": "I:\\Projetos\\NetCore\\HangPlayGround.Model\\HangPlayGround.Model.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -157,9 +94,6 @@
             "projectReferences": {
               "I:\\Projetos\\NetCore\\HangPlayGround.Model\\HangPlayGround.Model.csproj": {
                 "projectPath": "I:\\Projetos\\NetCore\\HangPlayGround.Model\\HangPlayGround.Model.csproj"
-              },
-              "I:\\Projetos\\NetCore\\HangPlayGround.Services\\HangPlayGround.Services.csproj": {
-                "projectPath": "I:\\Projetos\\NetCore\\HangPlayGround.Services\\HangPlayGround.Services.csproj"
               }
             }
           }
@@ -215,7 +149,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
         }
       }
     }

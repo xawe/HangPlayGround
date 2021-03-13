@@ -6,13 +6,14 @@ using System.Linq;
 using System.Threading.Tasks;
 using Hangfire;
 
+
 namespace HangPlayGround.Controllers
 {
     [ApiController]
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
     {
-        private readonly Services.IUserService _userService;
+        private readonly  HangPlayGround.Service.IUserServices _userService;
 
 
         private static readonly string[] Summaries = new[]
@@ -22,7 +23,7 @@ namespace HangPlayGround.Controllers
 
         private readonly ILogger<WeatherForecastController> _logger;
 
-        public WeatherForecastController(ILogger<WeatherForecastController> logger, Services.IUserService userService)
+        public WeatherForecastController(ILogger<WeatherForecastController> logger, HangPlayGround.Service.IUserServices userService)
         {
             _logger = logger;
             _userService = userService;
@@ -44,7 +45,7 @@ namespace HangPlayGround.Controllers
             BackgroundJob.Enqueue(()=> Loop());
 
             var x = _userService.GetUserList();
-            
+
             var rng = new Random();
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {

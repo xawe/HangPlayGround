@@ -33,9 +33,7 @@ I:\Projetos\NetCore\HangPlayGround\bin\Debug\net5.0\pt\Hangfire.Core.resources.d
 I:\Projetos\NetCore\HangPlayGround\bin\Debug\net5.0\zh-TW\Hangfire.Core.resources.dll
 I:\Projetos\NetCore\HangPlayGround\bin\Debug\net5.0\zh\Hangfire.Core.resources.dll
 I:\Projetos\NetCore\HangPlayGround\bin\Debug\net5.0\HangPlayGround.Model.dll
-I:\Projetos\NetCore\HangPlayGround\bin\Debug\net5.0\HangPlayGround.Services.dll
 I:\Projetos\NetCore\HangPlayGround\bin\Debug\net5.0\HangPlayGround.Model.pdb
-I:\Projetos\NetCore\HangPlayGround\bin\Debug\net5.0\HangPlayGround.Services.pdb
 I:\Projetos\NetCore\HangPlayGround\obj\Debug\net5.0\HangPlayGround.csprojAssemblyReference.cache
 I:\Projetos\NetCore\HangPlayGround\obj\Debug\net5.0\HangPlayGround.GeneratedMSBuildEditorConfig.editorconfig
 I:\Projetos\NetCore\HangPlayGround\obj\Debug\net5.0\HangPlayGround.AssemblyInfoInputs.cache
