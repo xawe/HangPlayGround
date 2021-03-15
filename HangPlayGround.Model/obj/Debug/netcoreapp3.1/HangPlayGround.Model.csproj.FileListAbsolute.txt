@@ -1,0 +1,9 @@
+I:\Projetos\NetCore\HangPlayGround.Model\bin\Debug\netcoreapp3.1\HangPlayGround.Model.deps.json
+I:\Projetos\NetCore\HangPlayGround.Model\bin\Debug\netcoreapp3.1\HangPlayGround.Model.dll
+I:\Projetos\NetCore\HangPlayGround.Model\bin\Debug\netcoreapp3.1\HangPlayGround.Model.pdb
+I:\Projetos\NetCore\HangPlayGround.Model\obj\Debug\netcoreapp3.1\HangPlayGround.Model.csprojAssemblyReference.cache
+I:\Projetos\NetCore\HangPlayGround.Model\obj\Debug\netcoreapp3.1\HangPlayGround.Model.AssemblyInfoInputs.cache
+I:\Projetos\NetCore\HangPlayGround.Model\obj\Debug\netcoreapp3.1\HangPlayGround.Model.AssemblyInfo.cs
+I:\Projetos\NetCore\HangPlayGround.Model\obj\Debug\netcoreapp3.1\HangPlayGround.Model.csproj.CoreCompileInputs.cache
+I:\Projetos\NetCore\HangPlayGround.Model\obj\Debug\netcoreapp3.1\HangPlayGround.Model.dll
+I:\Projetos\NetCore\HangPlayGround.Model\obj\Debug\netcoreapp3.1\HangPlayGround.Model.pdb
